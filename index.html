@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN for logo icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <!-- Favicon using Font Awesome icon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%230d6efd' d='M224 32C100.3 32 0 132.3 0 256s100.3 224 224 224 224-100.3 224-224S347.7 32 224 32zm0 64a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm0 352c-61.9 0-116.1-35.3-142.6-88.2 1.2-47.8 95.1-74.1 142.6-74.1s141.4 26.3 142.6 74.1C340.1 412.7 285.9 448 224 448z'/%3E%3C/svg%3E">
+</head>
+<body>
+    <div class="hero-bg">
+        <div class="hero-shape hero-shape1"></div>
+        <div class="hero-shape hero-shape2"></div>
+        <div class="hero-shape hero-shape3"></div>
+        <div class="hero-shape hero-shape4"></div>
+        <div class="hero-shape hero-shape5"></div>
+    </div>
+    <header class="bg-primary text-white text-center py-4 mb-4">
+        <div class="mb-2 d-flex justify-content-center align-items-center gap-3 flex-wrap">
+            <!-- Logo Icon -->
+            <span class="logo-circle d-inline-flex align-items-center justify-content-center"
+                  style="width:60px; height:60px; border-radius:50%; background:#fff; color:#0d6efd; font-size:2rem; font-weight:bold; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                <i class="fa-solid fa-gem me-1"></i>C
+            </span>
+            <div class="text-start">
+                <h1 class="mb-1 d-inline align-middle" style="font-size:2.5rem; vertical-align:middle;">Chynna Regidor</h1>
+                <div class="d-block" style="font-size:1.2rem; color:#cbd5e1;">Web Developer & Designer</div>
+            </div>
+        </div>
+        <nav class="nav justify-content-center mt-3">
+            <a class="nav-link text-white" href="#about">About Me</a>
+            <a class="nav-link text-white" href="#projects">Projects</a>
+            <a class="nav-link text-white" href="#skills">Skills</a>
+            <a class="nav-link text-white" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- About Me Section -->
+        <section id="about" class="mb-5 text-center">
+            <h2 class="mb-4">
+                <i class="fa-solid fa-user-circle me-2 text-primary"></i>
+                About Me
+            </h2>
+            <div class="card about-card mx-auto" style="max-width: 400px;">
+                <div class="card-body">
+                    <img src="ch.jpg" alt="Your Name" class="rounded-circle mb-3" width="150" height="150">
+                    <h5 class="card-title">Chynna Regidor</h5>
+                    <p class="card-text">
+                        Hello! I'm <strong>Chynna Regidor</strong>, a passionate web developer and designer with experience in building modern, responsive websites and web applications. I love working with the latest technologies and turning ideas into reality. Let's build something amazing together!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills" class="mb-5">
+            <h2 class="mb-4">
+                <i class="fa-solid fa-laptop-code me-2 text-primary"></i>
+                Skills
+            </h2>
+            <ul class="list-group list-group-horizontal-md flex-wrap skills-list">
+                <li class="list-group-item flex-fill text-center"><i class="fa-brands fa-html5 me-1 text-danger"></i>HTML5</li>
+                <li class="list-group-item flex-fill text-center"><i class="fa-brands fa-css3-alt me-1 text-primary"></i>CSS3</li>
+                <li class="list-group-item flex-fill text-center"><i class="fa-brands fa-js me-1 text-warning"></i>JavaScript</li>
+                <li class="list-group-item flex-fill text-center"><i class="fa-brands fa-react me-1 text-info"></i>React</li>
+                <li class="list-group-item flex-fill text-center"><i class="fa-brands fa-node-js me-1 text-success"></i>Node.js</li>
+                <li class="list-group-item flex-fill text-center"><i class="fa-brands fa-git-alt me-1 text-danger"></i>Git</li>
+            </ul>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience" class="mb-5">
+            <h2 class="mb-4">
+                <i class="fa-solid fa-briefcase me-2 text-primary"></i>
+                Experience
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-code me-2 text-success"></i>
+                            <strong>Front-End Developer</strong> – ABC Company<br>
+                            <span class="text-muted">2024 - Present</span>
+                            <p class="mb-0">Developed responsive web applications using React, Bootstrap, and REST APIs. Collaborated with designers and back-end developers to deliver seamless user experiences.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-scissors me-2 text-warning"></i>
+                            <strong>Tailor</strong> – Innoworks corporation<br>
+                            <span class="text-muted">2022 - 2025</span>
+                            <p class="mb-0">Designed modern, user-friendly websites and branding materials for small businesses. Specialized in UI/UX and mobile-first design.</p>
+                            
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-graduation-cap me-2 text-info"></i>
+                            <strong>Intern Web Developer</strong> – Creative Labs<br>
+                            <span class="text-muted">2019 - 2020</span>
+                            <p class="mb-0">Assisted in building and maintaining client websites, learning best practices in HTML, CSS, and JavaScript.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Educational Background Section -->
+        <section id="education" class="mb-5">
+            <h2 class="mb-4">
+                <i class="fa-solid fa-graduation-cap me-2 text-primary"></i>
+                Educational Background
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-university me-2 text-secondary"></i>
+                            <strong>Bachelor of Science in Information Technology</strong><br>
+                            <span class="text-muted">Global Reciprocal College, 2023 - 2027</span>
+                            <p class="mb-0">Graduated with honors. Focused on web development, UI/UX design, and software engineering.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-certificate me-2 text-primary"></i>
+                            <strong> HUMSS </strong><br>
+                            <span class="text-muted"> Arellano University,2013-2015</span>
+                            <p class="mb-0">Completed the Humanities and Social Sciences (HUMSS) strand, focusing on communication, critical thinking, and social sciences. Developed strong analytical and writing skills through various research and group projects.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-school me-2 text-warning"></i>
+                            <strong>High School Diploma</strong><br>
+                            <span class="text-muted">Tinajeros National High School, 2009 - 2012</span>
+                            <p class="mb-0">Active in computer club and science competitions.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects" class="mb-5">
+            <h2 class="mb-4">
+                <i class="fa-solid fa-diagram-project me-2 text-primary"></i>
+                Projects
+            </h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card project-card h-100">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Project One Example">
+                        <div class="card-body">
+                            <h3 class="card-title"><i class="fa-solid fa-globe me-2 text-info"></i>Portfolio Website</h3>
+                            <p class="card-text">
+                                A personal portfolio website to showcase my projects, skills, and experience. Built with HTML, CSS, Bootstrap, and JavaScript. Features smooth animations, responsive design, and a contact form.
+                            </p>
+                            <ul class="mb-2 ps-3">
+                                <li>Responsive and mobile-friendly</li>
+                                <li>Animated hero background</li>
+                                <li>Contact form with validation</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card project-card h-100">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Project Two Example">
+                        <div class="card-body">
+                            <h3 class="card-title"><i class="fa-solid fa-mobile-alt me-2 text-success"></i>Task Manager App</h3>
+                            <p class="card-text">
+                                A web application for managing daily tasks and to-dos. Built using React and Node.js with a MongoDB backend. Includes user authentication and real-time updates.
+                            </p>
+                            <ul class="mb-2 ps-3">
+                                <li>Real-time task updates</li>
+                                <li>Login & registration system</li>
+                                <li>Modern UI with drag-and-drop</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card project-card h-100">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="Project Three Example">
+                        <div class="card-body">
+                            <h3 class="card-title"><i class="fa-solid fa-database me-2 text-warning"></i>Blog Platform</h3>
+                            <p class="card-text">
+                                A full-featured blog platform where users can write, edit, and comment on articles. Built with Express.js, EJS, and MongoDB. Includes admin dashboard and markdown support.
+                            </p>
+                            <ul class="mb-2 ps-3">
+                                <li>Rich text & markdown editor</li>
+                                <li>Commenting and user roles</li>
+                                <li>Admin dashboard for management</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="mb-5">
+            <h2 class="mb-4">
+                <i class="fa-solid fa-envelope me-2 text-primary"></i>
+                Contact
+            </h2>
+            <form id="contactForm" class="mb-3">
+                <div class="mb-3">
+                    <label for="name" class="form-label"><i class="fa-solid fa-user me-1"></i> Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label"><i class="fa-solid fa-at me-1"></i> Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label"><i class="fa-solid fa-comment-dots me-1"></i> Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane me-1"></i>Send</button>
+            </form>
+            <div id="formAlert" class="alert alert-success d-none" role="alert">
+                <i class="fa-solid fa-circle-check me-1"></i>Thank you for your message!
+            </div>
+            <p><i class="fa-solid fa-envelope me-1"></i>Email: <a href="chynna.regidor7@gmail.com">chynna.regidor@gmail.com</a></p>
+            <p><i class="fa-brands fa-facebook me-1"></i>Facebook: <a href="https://facebook.com/yourprofile" target="_blank">Your Facebook</a></p>
+        </section>
+    </div>
+    <footer class="bg-primary text-white text-center py-3 mt-4">
+        &copy; 2025 Chynna Regidor. All rights reserved.
+    </footer>
+    <!-- Bootstrap JS Bundle (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script>
+        // Smooth scroll for nav links
+        document.querySelectorAll('a.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if (this.hash) {
+                    e.preventDefault();
+                    document.querySelector(this.hash).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Contact form submission with feedback
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            document.getElementById('formAlert').classList.remove('d-none');
+            this.reset();
+            setTimeout(() => {
+                document.getElementById('formAlert').classList.add('d-none');
+            }, 3000);
+        });
+    </script>
+</body>
+</html>
